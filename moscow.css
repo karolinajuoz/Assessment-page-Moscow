@@ -1,0 +1,22 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+ header { background-color: #43739d; color: white; padding: 1em; text-align: center; width: 100%; }
+  main { margin: 20px; padding: 20px; background-color: rgb(254, 254, 255); border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease; } 
+  main:hover { background-color: rgb(240, 240, 255); }
+   button { padding: 10px 20px; background-color: #ac8a6c; color: rgb(255, 255, 255); border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; }
+    button:hover { background-color: #43739d; } 
+    footer { text-align: center; padding: 1em; background-color: #43739d; color: white; position: fixed; width: 100%; bottom: 0; } 
+    a { text-decoration: none; color: black; transition: color 0.3s ease; }
+     a:hover { color: #43739d; }
+      .container { display: flex; justify-content: center; align-items: center; height: 60vh;  } 
+      .centered-image { max-width: 220px; height: 300px; gap: 20px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; }
+       .centered-image:hover { transform: scale(1.05); }
+        .info-container { border: 3px solid #43739d; padding: 12px; margin: 20px; border-radius: 5px; background-color: #f9f9f9; max-width: 1300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; } 
+        .info-container:hover { transform: scale(1.02); } 
+        .info-container h5 { font-size: 1em; color: black; margin-bottom: 5px; margin-top: 5px; font-family: Georgia, 'Times New Roman', Times, serif; } 
+         .info-container p { font-family: Georgia, 'Times New Roman', Times, serif; font-size: 1em; color: #000000; line-height: 1.6; }
+          .info-container ul { font-family: Georgia, 'Times New Roman', Times, serif; } 
+          .centered-video { height:auto; display: block; margin: 20px auto; max-width: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; }
+           .centered-video:hover { transform: scale(1.02);}
+           footer { text-align: center; padding: 1em; background-color: #43739d; color: white; width: 100%; position: relative; box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); }
+           footer a { text-decoration: none; color: black; font-weight: bold;  transition: color 0.3s ease; }
+         footer a:hover { color: #ac8a6c; }
